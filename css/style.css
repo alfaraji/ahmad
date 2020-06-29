@@ -70,7 +70,10 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  
+ }
+
 
 p {
   margin-top: 0;
@@ -8185,7 +8188,7 @@ h1, h2, h3, h4, h5,
     margin: 0 auto;
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
-    color: #000000;
+    color: #020202a2;
     padding-top: .7rem;
     padding-bottom: .7rem; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
@@ -8400,9 +8403,13 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .1;
-    width: 50%;
-    background: #3e64ff; }
+    opacity: .8;
+    width: 100%;
+    /* background-color: rgba(2, 2, 3, 0.699); */
+    background-image: url("001.jpg"); 
+    background-position: center ;
+    background-size: cover;
+  }
   .hero-wrap .text {
     width: 100%; }
 
@@ -8462,13 +8469,13 @@ h1, h2, h3, h4, h5,
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 120px;
+  bottom: 85px;
   z-index: 2; }
 
 .mouse-icon {
-  width: 70px;
-  height: 70px;
-  border: 1px solid transparent;
+  width: 60px;
+  height: 60px;
+  border: 2px solid transparent;
   cursor: pointer;
   position: relative;
   text-align: center;
@@ -8481,8 +8488,8 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    background: #edf0ff;
-    z-index: -1;
+    background: #ffffff31;
+    z-index: 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg); }
@@ -8491,7 +8498,7 @@ h1, h2, h3, h4, h5,
   height: 70px;
   margin: 2px auto 0;
   display: block;
-  width: 30px;
+  width: 40px;
   background: transparent;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -8500,8 +8507,9 @@ h1, h2, h3, h4, h5,
   -webkit-animation: 1.6s ease infinite wheel-up-down;
   -moz-animation: 1.6s ease infinite wheel-up-down;
   animation: 1.6s ease infinite wheel-up-down;
-  color: #3e64ff;
-  font-size: 30px; }
+  color: #0492a5;
+  font-size: 50px; 
+}
 
 @-webkit-keyframes wheel-up-down {
   100% {
@@ -9214,9 +9222,10 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
-  background-position: center center; }
+  /* background-position: center center; */
+ }
 
 .image-popup {
   cursor: -webkit-zoom-in;
